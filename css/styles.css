@@ -164,18 +164,12 @@
 
 /* Animação de rolagem infinita */
 @keyframes scroll {
-  /*0% {
+  0% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(-100%);
-  }*/
-    0%{
-      transform: translate3d(0,0,0);
-  }
-  100%{
-      transform: translate3d(calc(3*-150px),0,0);
-  }
+  }    
 }
 
 .logo img {
@@ -679,11 +673,18 @@ input {
   }
 
   .carousel {
-    /*animation: scroll 5s infinite alternate-reverse;*/
-    animation: carousel 35s linear infinite;
-    display: flex;
-    flex-wrap: nowrap;
-    width: calc(3 * 150px);
+    animation: scroll 20s linear infinite alternate-reverse;
+    
+  }
+
+  /* Animação de rolagem infinita */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-450%);
+    }    
   }
 
   #call-to-action video {
