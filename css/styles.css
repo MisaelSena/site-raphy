@@ -252,17 +252,17 @@
 
 #numbers .card-number {
   border-radius: 60.549px;
-  border: 2.243px solid #3F4346;
-  background: linear-gradient(-109deg, #151516 8.56%, #252527 104.41%);
+  border: 1.99px solid #727272;
+  background: linear-gradient(-90deg, #151516 8.56%, #252527 104.41%);  
   box-shadow: 0px 0px 102.94464px 0px rgba(27, 28, 32, 0.30);
   padding: 30px;
   min-height: 210px;
-  transition: 0.9s;  
+  transition: 0.9s;
 }
 
 #numbers .card-number:hover{
-  box-shadow: 0px 0px 80px 1px rgba(255, 255, 255, 0.35);
-  background: linear-gradient(-109deg, #151516 8.56%, #2e2e30 104.41%);    
+  box-shadow: 0px 0px 70px 1px rgba(255, 255, 255, 0.274);
+  background:  linear-gradient(-90deg, #181818 27.63%, rgba(68, 68, 68, 0.884) 99.03%);      
 }
 
 #numbers .card-number h3 {
