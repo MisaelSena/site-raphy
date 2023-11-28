@@ -34,7 +34,8 @@
 }
 
 #scroll-menu {
-  background-color: rgba(15,15,15, 60);
+  background-color: rgba(12, 12, 12, 0.521);
+  backdrop-filter: blur(10px);
   color: #fff;
   position: fixed;
   top: 0;
