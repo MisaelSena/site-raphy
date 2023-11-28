@@ -340,8 +340,9 @@
 }
 
 #contact {
-  background: conic-gradient(from 179deg at 102.29% -9.3%, #000 38.22414994239807deg, #2E2E2E 94.92245435714722deg, #5D5C65 358.70412826538086deg);
+  background: conic-gradient(from 179.14deg at 102.29% -9.3%, #3B3A3E -1.3deg, #000000 38.22deg, #2E2E2E 94.92deg, #3B3A3E 358.7deg, #000000 398.22deg);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 #contact h5 {
