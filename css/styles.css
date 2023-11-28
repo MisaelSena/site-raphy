@@ -119,9 +119,13 @@
   text-align: center;
 }
 
+.titulo-alguns-clientes{
+  font-weight: 900 !important;
+}
+
 #contato-whatsapp{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background-color: #D9D9D9;
   display: flex;
   justify-content: center;
@@ -290,7 +294,7 @@
   box-shadow: 0px 0px 102.94464px 0px rgba(27, 28, 32, 0.30);
   padding: 30px;
   min-height: 210px;
-  transition: 0.9s;
+  transition: 0.8s;  
 }
 
 #numbers .card-number:hover{
@@ -314,11 +318,9 @@
   line-height: 133.4%; 
 }
 
-#call-to-action {
-  /*background: conic-gradient(from 179deg at 102.29% -9.3%, #35353A 38.22414994239807deg, #141415 88.90284240245819deg, #514F5F 358.70412826538086deg);*/
-  /*background: linear-gradient(346deg, rgba(20,20,21,1) 55%, rgba(53,53,58,1) 97%, rgba(81,79,95,1) 100%);*/
-  background-image: radial-gradient(circle at -18.3% 31.7%, #35353A 0, #35353A 12.5%, #141415 25%, #141415 37.5%, #141415 50%, #141415 62.5%, #141415 75%, #141415 87.5%, #141415 100%);
-  backdrop-filter: blur(100px);
+#call-to-action {  
+    background-image: radial-gradient(circle at -18.3% 31.7%, #35353A 0, #35353A 12.5%, #141415 25%, #141415 37.5%, #141415 50%, #141415 62.5%, #141415 75%, #141415 87.5%, #141415 100%);
+    backdrop-filter: blur(100px);
 }
 
 #call-to-action h2 {
@@ -442,8 +444,8 @@ footer .redirect-label {
 
 .button-contact-2 {
   border-radius: 10px;
-  border: 1.431px solid #ABABAB;
-  background: #555555;
+  border: 1.43126px solid #6D6D6D;
+  background: #454545;
   color: #DDDDDD;
   text-align: center;
   font-size: 15px;
@@ -455,15 +457,12 @@ footer .redirect-label {
   transition: 0.3s;
 }
 
-/*.button-contact-2 svg path {
-  stroke: #DDDDDD;
-}*/
 
 .button-contact-2:hover {
   border-radius: 10px;
-  border: 1.431px solid #7D7D7D;
-  background: #2D2D2D;
-  box-shadow: 0px 0px 10px 0px rgb(34, 34, 34);
+  border: 1.431px solid #6D6D6D;
+  background: #353535;
+  box-shadow: 0px 0px 10px 0px rgb(34, 34, 34, 0.9);
 }
 
 .button-send {
