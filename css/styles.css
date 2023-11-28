@@ -117,6 +117,22 @@
   text-align: center;
 }
 
+#contato-whatsapp{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+#contato-whatsapp p{
+  color: #1E1E1E;
+}
+
 #clients .title-area {
   padding-top: 30px;
 }
@@ -282,8 +298,10 @@
 }
 
 #call-to-action {
-  background: conic-gradient(from 179deg at 102.29% -9.3%, #35353A 38.22414994239807deg, #141415 88.90284240245819deg, #514F5F 358.70412826538086deg);
-  backdrop-filter: blur(15px);
+  /*background: conic-gradient(from 179deg at 102.29% -9.3%, #35353A 38.22414994239807deg, #141415 88.90284240245819deg, #514F5F 358.70412826538086deg);*/
+  /*background: linear-gradient(346deg, rgba(20,20,21,1) 55%, rgba(53,53,58,1) 97%, rgba(81,79,95,1) 100%);*/
+  background-image: radial-gradient(circle at -18.3% 31.7%, #35353A 0, #35353A 12.5%, #141415 25%, #141415 37.5%, #141415 50%, #141415 62.5%, #141415 75%, #141415 87.5%, #141415 100%);
+  backdrop-filter: blur(100px);
 }
 
 #call-to-action h2 {
@@ -403,6 +421,32 @@ footer .redirect-label {
   border: 1.431px solid #7D7D7D;
   background: #D4D4D4;
   box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.35);
+}
+
+.button-contact-2 {
+  border-radius: 10px;
+  border: 1.431px solid #ABABAB;
+  background: #555555;
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 5px 35px;  
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button-contact-2 svg path {
+  stroke: #DDDDDD; /* Cor branca */
+}
+
+.button-contact-2:hover {
+  border-radius: 10px;
+  border: 1.431px solid #7D7D7D;
+  background: #2D2D2D;
+  box-shadow: 0px 0px 10px 0px rgb(34, 34, 34);
 }
 
 .button-send {
@@ -676,6 +720,11 @@ input {
   color: #4E4E4E;
   font-size: 12px;
   line-height: 171.4%;  
+}
+
+.identidade-visual{
+  padding-right: 4% !important;
+  padding-left: 4% !important; 
 }
 
 .hidden {
