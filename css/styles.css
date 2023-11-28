@@ -36,6 +36,7 @@
 #scroll-menu {
   background-color: rgba(12, 12, 12, 0.521);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: #fff;
   position: fixed;
   top: 0;
@@ -454,9 +455,9 @@ footer .redirect-label {
   transition: 0.3s;
 }
 
-.button-contact-2 svg path {
-  stroke: #DDDDDD; /* Cor branca */
-}
+/*.button-contact-2 svg path {
+  stroke: #DDDDDD;
+}*/
 
 .button-contact-2:hover {
   border-radius: 10px;
