@@ -498,7 +498,7 @@ footer .redirect-label {
 }
 
 .button-send {
-  border-radius: 15.867px;
+  border-radius: 10px;
   border: 2.436px solid #A7A7A7;
   background: #D9D9D9;
   color: #111;
@@ -531,7 +531,7 @@ footer .redirect-label {
 }
 
 textarea {
-  border-radius: 17.867px;
+  border-radius: 10px;
   border: 2.436px solid #747474;
   background: #1A1A1A;
   width: 100%;
@@ -545,7 +545,7 @@ textarea {
 }
 
 input {
-  border-radius: 17.867px;
+  border-radius: 10px;
   border: 2.436px solid #484848;
   background: #1A1A1A;
   padding: 10px 20px;
