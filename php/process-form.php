@@ -6,7 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $phone = $_POST["phone"];
   
   // Configurar o destinatário do e-mail (seu endereço de e-mail do Gmail)
-  $destinatario = "estudioraphy@gmail.com";
+  //$destinatario = "estudioraphy@gmail.com";
+  $destinatario = "misaellsena@gmail.com";
   
   // Configurar o assunto do e-mail
   $assunto = "Nova mensagem do site de contato de $nome";
@@ -19,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
   // Enviar o e-mail usando a função mail()
 
-  header("Location: https://raphystudio.com/");
+  header("Location: https://raphy.vortex36.tech/");
   exit;
   if (mail($destinatario, $assunto, $corpo)) {
     echo "Mensagem enviada com sucesso!";
